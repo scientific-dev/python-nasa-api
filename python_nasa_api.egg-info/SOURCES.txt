@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+nasaapi/__init__.py
+python_nasa_api.egg-info/PKG-INFO
+python_nasa_api.egg-info/SOURCES.txt
+python_nasa_api.egg-info/dependency_links.txt
+python_nasa_api.egg-info/top_level.txt
