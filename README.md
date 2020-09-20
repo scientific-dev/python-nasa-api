@@ -2,6 +2,8 @@
 
 Simple wrapper for NASA Api written in python which was previously written by abh80 in **Javascript** as NPM which is deprecated now so i aka Science Spot recreated it in **Python** using requests modules!
 
+> This package is just made for fun and its not seriously made... You can actually read the original nasa api docs and you can actually get data from api but this is made for additional features. So, don't care if it's silly!
+
 ## Quick Docs
 
 You need NASA's Official API to use this module!
