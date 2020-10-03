@@ -1,8 +1,6 @@
-# Python NASA API
+# Python Nasa API
 
-Simple wrapper for NASA API written in python which was previously written by abh80 in **Javascript** as NPM which is deprecated now so i aka Science Spot recreated it in **Python** using requests modules!
-
-> This package is just made for fun and its not seriously made... You can actually read the original nasa api docs and you can actually get data from api but this is made for additional features. So, don't care if it's silly!
+Simple wrapper for NASA Api written in python which was previously written by abh80 in **Javascript** as NPM which is deprecated now so i aka Science Spot recreated it in **Python** using requests modules!
 
 ## Quick Docs
 
@@ -14,9 +12,9 @@ You need NASA's Official API to use this module!
 # Import Client Class
 from nasaapi import Client
 
-# Load Your API
-nasa = Client(API)
-# Replace your API with the original one!
+# Load your api
+nasa = Client(api)
+# Replace your api with the original one!
 ```
 
 ### Apod
@@ -37,7 +35,7 @@ print(nasa.earth(lat, lon, date))
 # Date parameter should be in the form of YYYY-MM-DD
 # Will return a dict
 
-Print(nasa.earth_image(lat, lon, date))
+print(nasa.earth_image(lat, lon, date))
 # Will return image url
 ```
 
@@ -86,7 +84,7 @@ print(nasa.techport(id))
 # Will return dict unless its a better id
 ```
 
-### Two Line Element Sets of NASA
+### Two Line Element Sets of Nasa
 
 Get data of nasa's tle
 
@@ -98,7 +96,7 @@ print(nasa.tle.get(query))
 # Will get of 1 data only
 ```
 
-### NIVL aka NASA Image and Video Library
+### NIVL aka Nasa Image and Video Library
 
 Get images, Search Images, and other image and video library of NASA
 
@@ -120,4 +118,3 @@ print(nasa.nivl.captions(id))
 
 - [Discord Support Server](https://discord.gg/FrduEZd)
 - [GitHub Repo](https://github.com/Scientific-Guy/python-nasa-api)
- 
